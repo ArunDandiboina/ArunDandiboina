@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #5A639C;
+}
+
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #5A639C;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.intro, .about {
+    background-color: #E2BBE9;
+}
+
+.works {
+    background-color: #9B86BD;
+    color: white;
+}
+
+.contact {
+    background-color: #7776B3;
+    color: white;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto 50px;
+}
+
+.footer {
+    background-color: #5A639C;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-links i {
+    font-size: 2rem;
+    color: #E2BBE9;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.portfolio-img {
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 20px 18%;
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+
+.portfolio-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact a {
+    text-decoration: none;
+    color: inherit;
+}

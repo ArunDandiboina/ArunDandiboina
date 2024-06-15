@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun Dandiboina - Web Developer & Prompt Engineer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Arun Dandiboina</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#intro">Introduction</a></li>
+                <li class="nav-item"><a class="nav-link" href="#works">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Intro Section -->
+    <section id="intro" class="section intro">
+        <div class="container text-center">
+            <img src="profile.jpeg" alt="Arun Dandiboina" class="profile-pic mb-3">
+            <h1 class="section-title">Welcome to My Personal Page</h1>
+            <p>Hi, I'm Arun Dandiboina, a Web Developer and Prompt Engineer. I create professional and dynamic websites that are responsive and tailored to your needs.</p>
+        </div>
+    </section>
+
+    <!-- Works Section -->
+    <section id="works" class="section works">
+        <div class="container">
+            <h2 class="section-title">My Portfolio</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="https://html5up-identity.onrender.com/" target="_blank">
+                        <img src="project1.png" alt="Project 1" class="img-fluid mb-4 portfolio-img">
+                    </a>
+                </div>
+                <div class="col-md-6 ">
+                    <a href="https://jokesapi-g8j3.onrender.com/" target="_blank">
+                        <img src="project2.png" alt="Project 2" class="img-fluid mb-4 portfolio-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <p>I'm Arun Dandiboina, a passionate web developer with expertise in creating dynamic, responsive, and user-friendly websites. With a strong background in both front-end and back-end development, I bring a holistic approach to web design and development. My skills include HTML, CSS, JavaScript, jQuery, Bootstrap, and more. I'm also proficient in prompt engineering, enhancing user interactions and experiences on various platforms.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" id="submitBtn" class="btn btn-primary">Submit</button>
+            </form>
+            <div class="social-links mt-4 text-center">
+                <a href="https://www.instagram.com/creativepulse_ai/" target="_blank" class="social-icon mx-2">
+                    <i class="bi bi-instagram" style="font-size: 2rem;"></i>
+                </a>
+                <a href="https://github.com/ArunDandiboina" target="_blank" class="social-icon mx-2">
+                    <i class="bi bi-github" style="font-size: 2rem;"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/darunexpert/" target="_blank" class="social-icon mx-2">
+                    <i class="bi bi-linkedin" style="font-size: 2rem;"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Arun Dandiboina. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
