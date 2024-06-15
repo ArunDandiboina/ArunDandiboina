@@ -68,10 +68,10 @@ html, body {
 
 .portfolio-img {
     transition: transform 0.3s, box-shadow 0.3s;
-    margin: 20px 10%;
+    margin: 20px auto;
     cursor: pointer;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
