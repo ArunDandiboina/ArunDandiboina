@@ -68,7 +68,7 @@ html, body {
 
 .portfolio-img {
     transition: transform 0.3s, box-shadow 0.3s;
-    margin: 20px 18%;
+    margin: 20px 15%;
     cursor: pointer;
     width: 300px;
     height: 300px;
