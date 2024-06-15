@@ -66,6 +66,9 @@ html, body {
     text-decoration: none;
 }
 
+.row{
+    text-align: center;
+}
 .portfolio-img {
     transition: transform 0.3s, box-shadow 0.3s;
     margin: 20px auto;
